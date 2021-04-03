@@ -1,6 +1,6 @@
-<p align="center">
-  <span>DT Money</span>
-</p>
+<h2 align="center">
+  DT Money
+</h2>
 
 <p align="center">
   <img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/martins-rafael/dtmoney?color=ff512f&style=flat-square">
