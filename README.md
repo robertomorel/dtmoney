@@ -1,12 +1,10 @@
-<span align="center">
-  DT Money
-</span>
+<p align="center">
+  <span>DT Money</span>
+</p>
 
 <p align="center">
   <img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/martins-rafael/dtmoney?color=ff512f&style=flat-square">
 </p>
-
-<img align="right" src="src/assets/logo.svg" width="35%" alt="dt money">
 
 <br />
 
