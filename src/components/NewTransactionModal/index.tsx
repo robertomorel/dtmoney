@@ -26,6 +26,7 @@ export const NewTransactionModal = ({
   const [category, setCategory] = useState('');
 
   async function handleCreateNewTransaction(event: FormEvent) {
+    // Para que toda a tela não sera recarregada novamente. Apenas o form.
     event.preventDefault();
 
     await createTransaction({ type, title, amount, category });

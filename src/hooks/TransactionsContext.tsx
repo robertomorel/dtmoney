@@ -16,6 +16,7 @@ interface Transactions {
   createdAt: string;
 }
 
+//type TransactionInput = Pick<Transactions, 'title' | 'amount' | 'type' | 'category'>
 type TransactionInput = Omit<Transactions, 'id' | 'createdAt'>
 
 interface TransactionsProviderProps {
@@ -27,6 +28,7 @@ interface TransactionContextData {
   createTransaction: (transaction: TransactionInput) => void;
 }
 
+// Criando o contexto
 const TransactionContext = createContext<TransactionContextData>(
   {} as TransactionContextData
 );
@@ -48,6 +50,7 @@ export const TransactionProvider = ({ children }: TransactionsProviderProps) => 
     setTransactions([...transactions, transaction]);
   }
 
+  // O contexto disponibilizará uma lista de transations e uma função para criar novas transactions  
   return (
     <TransactionContext.Provider value={{ transactions, createTransaction }}>
       {children}
