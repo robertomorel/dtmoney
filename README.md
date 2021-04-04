@@ -3,7 +3,7 @@
 </h2>
 
 <p align="center">
-  <img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/martins-rafael/dtmoney?color=ff512f&style=flat-square">
+  <img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/robertomorel/dtmoney?color=ff512f&style=flat-square">
 </p>
 
 <br />
